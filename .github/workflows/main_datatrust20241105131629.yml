@@ -53,4 +53,4 @@ jobs:
           app-name: 'DataTrust20241105131629'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB01E26A15A14F8388F112AD42322535 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E5C4E683EA714FF08CA52F64174F4132 }}
