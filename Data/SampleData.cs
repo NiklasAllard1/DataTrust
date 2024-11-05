@@ -14,19 +14,25 @@ namespace DataTrust.Data
                 {
                     OpenIDIssuer = fakeIssuer,
                     OpenIDSubject = "1111111111",
-                    Name = "Brad"
+                    Name = "Andrey"
                 });
                 database.Accounts.Add(new Account
                 {
                     OpenIDIssuer = fakeIssuer,
                     OpenIDSubject = "2222222222",
-                    Name = "Angelina"
+                    Name = "Axel"
                 });
                 database.Accounts.Add(new Account
                 {
                     OpenIDIssuer = fakeIssuer,
                     OpenIDSubject = "3333333333",
-                    Name = "Will"
+                    Name = "Jesper"
+                });
+                database.Accounts.Add(new Account
+                {
+                    OpenIDIssuer = fakeIssuer,
+                    OpenIDSubject = "4444444444",
+                    Name = "Niklas"
                 });
             }
 
